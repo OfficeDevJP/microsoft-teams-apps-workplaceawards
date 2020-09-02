@@ -18,8 +18,8 @@
     "short": "Workplace Awards"
   },
   "description": {
-    "short": "Workplace Awards provides an easy and intuitive method to reward employees.",
-    "full": "Workplace Awards provides an easy way for you to conduct your monthly, quarterly rewards and recognition process. Now you can easily nominate your colleague for designated awards, appreciate them for a job well done and celebrate success of your team anytime and from anywhere."
+    "short": "Workplace Awardsは、簡単かつ直感的に操作できる従業員に対する表彰システムを提供します。",
+    "full": "Workplace Awardsは、月ごとや四半期ごとの報奨や表彰を簡単に行えるシステムを提供します。指定したアワードにチームメンバーを推薦することで彼らの仕事を評価し、いつでもどこからでもチームの成功を祝うことができます。"
   },
   "accentColor": "#00B764",
   "bots": [
@@ -48,13 +48,13 @@
       "commands": [
         {
           "id": "Nominate",
-          "title": "Nominations",
-          "description": "Search nominations",
+          "title": "ノミネーション",
+          "description": "ノミネーションを検索",
           "parameters": [
             {
               "name": "searchText",
-              "title": "Search",
-              "description": "Search"
+              "title": "検索",
+              "description": "検索"
             }
           ],
           "context": [
@@ -65,8 +65,8 @@
         {
           "id": "Nominate awards",
           "type": "action",
-          "title": "Nominate",
-          "description": "Nominate an award for a team member",
+          "title": "ノミネートする",
+          "description": "チームメンバーをアワードにノミネートする",
           "initialRun": true,
           "fetchTask": true,
           "context": [
