@@ -79,7 +79,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   ワークプレースアワードのタブを開いてリワードサイクルの設定と管理を行いましょう。 に類似しているローカライズされた文字列を検索します。
+        ///   Workplace Awardsのタブを開いてリワードサイクルの設定と管理を行いましょう。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AdminTabNavigationText {
             get {
@@ -88,7 +88,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   あなたはこの賞について **{0}** を指示しています。 に類似しているローカライズされた文字列を検索します。
+        ///   あなたはこのアワードについて **{0}** を支持しています。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AlreadyEndorsedMessage {
             get {
@@ -97,7 +97,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   受賞者は... に類似しているローカライズされた文字列を検索します。
+        ///   受賞者発表 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AwardWinnerCardTitle {
             get {
@@ -133,7 +133,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   現在アクティブなリワードサイクルはありません。チームメンバーへのノミネートや支持を行うには、次のアワードサイクルまでお待ちください。 に類似しているローカライズされた文字列を検索します。
+        ///   現在アクティブなリワードサイクルはありません。チームメンバーへのノミネートや支持を行うには、次のサイクルまでお待ちください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CycleValidationMessage {
             get {
@@ -160,7 +160,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   問題が発生しました。数分後に再度お試しください。 に類似しているローカライズされた文字列を検索します。
+        ///   問題が発生しました。数分後にやり直しください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ErrorMessage {
             get {
@@ -169,7 +169,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   このチームではボットが追加されていないので使用ができません。 に類似しているローカライズされた文字列を検索します。
+        ///   このチームにはボットが追加されていないので使用できません。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string InvalidTeamText {
             get {
@@ -187,7 +187,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   * 指定されたアワードへのチームメンバーの推薦を許可してください。 に類似しているローカライズされた文字列を検索します。
+        ///   * 指定されたアワードへのチームメンバーのノミネーションを許可する。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ManageAwardsBulletPoint {
             get {
@@ -196,7 +196,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   このアプリは個人チャットやグループチャットでは使用できません。アワードを送信するには、ワークプレースアワードが追加されているチームに移動してください。 に類似しているローカライズされた文字列を検索します。
+        ///   このアプリは個人チャットやグループチャットでは使用できません。アワードを送信するには、Workplace Awardsが追加されているチームに移動してください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MessagingExtensionErrorMessage {
             get {
@@ -205,7 +205,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   * ノミネートされたチームメンバーの中からアワードの受賞者を承認し、発行しましょう。 に類似しているローカライズされた文字列を検索します。
+        ///   * ノミネートされたチームメンバーの中からアワードの受賞者を承認し、発表する。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NominateBulletPoint {
             get {
@@ -241,7 +241,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   {0} はこのアワードにノミネートされています。 に類似しているローカライズされた文字列を検索します。
+        ///   メンバーをノミネートする に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NominatePeopleTitle {
             get {
@@ -250,7 +250,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   {0} はこのアワードにノミネートされています。 - {1} . に類似しているローカライズされた文字列を検索します。
+        ///   {0} がこのアワードにノミネートされました。受賞を支持しましょう！- {1} に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NominationMentionText {
             get {
@@ -259,7 +259,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   ノミネートはまもなく終了します。今すぐノミネートしてください。 に類似しているローカライズされた文字列を検索します。
+        ///   ノミネーションはまもなく終了します。今すぐノミネートしてください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NominationReminderNotificationText {
             get {
@@ -268,7 +268,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   ** チーム所有者からのお知らせ ** {0} に類似しているローカライズされた文字列を検索します。
+        ///   チーム所有者からのお知らせ ： {0} に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NoteForTeamText {
             get {
@@ -286,7 +286,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   リワードサイクルは **{0}** から *{1}** に構成されました。 に類似しているローカライズされた文字列を検索します。
+        ///   リワードサイクルは **{0}** から *{1}** までに設定されました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string RewardCycleHeader {
             get {
@@ -304,7 +304,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   リワードタイムです に類似しているローカライズされた文字列を検索します。
+        ///   メンバーを推薦しましょう！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string RewardTitle {
             get {
@@ -313,7 +313,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   アワードキャプテンを設定しましょう。アワードキャプテンはアワードを立ち上げ、ノミネーションを管理できます。 に類似しているローカライズされた文字列を検索します。
+        ///   * アワードを立ち上げ、ノミネーションを管理するアワードキャプテンを設定する。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SetAdminBulletPoint {
             get {
@@ -331,7 +331,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   アワードキャプテンとして、{0}はアワードを立ち上げ、アワードサイクルを設定し、結果を共有します。 に類似しているローカライズされた文字列を検索します。
+        ///   {0}はアワードキャプテンとして、アワードの作成、リワードサイクルを設定、結果発表を行います。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SetAdminMentionText {
             get {
@@ -340,7 +340,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   * 支持することでノミネートされたメンバーを支援する に類似しているローカライズされた文字列を検索します。
+        ///   * ノミネートされたメンバーを支持する。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SetRewardCycleBulletPoint {
             get {
@@ -349,7 +349,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   **{0}** への **{1}** のノミネーションを支持しました。結果は **{2}** にて共有されます。 に類似しているローカライズされた文字列を検索します。
+        ///   **{0}** への **{1}** のノミネーションを支持しました。結果は **{2}** に発表されます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SuccessfulEndorseMessage {
             get {
@@ -367,7 +367,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   **ワークプレースアワードのタブで発行された結果をみる。** に類似しているローカライズされた文字列を検索します。
+        ///   **Workplace Awardsのタブで発行された結果を確認しましょう。** に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ViewWinnerTabText {
             get {
@@ -376,7 +376,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   **アワードキャプテンがチームから抜けました。リワードサイクルを進めるには新しいアワードキャプテンを選んでください** に類似しているローカライズされた文字列を検索します。
+        ///   **アワードキャプテンがチームから抜けました。リワードサイクルを進めるには新しいアワードキャプテンを選んでください。** に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WelcomeCardNewAdminText {
             get {
@@ -403,7 +403,7 @@ namespace Microsoft.Teams.Apps.RewardAndRecognition {
         }
         
         /// <summary>
-        ///   こんにちは。Workplace Awardsボットです。パフォーマンスアワードへのチームメンバーの推薦をお手伝いします。 に類似しているローカライズされた文字列を検索します。
+        ///   こんにちは。Workplace Awardsボットです。アワードへのチームメンバーの推薦をお手伝いします。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WelcomeTeamCardContent {
             get {

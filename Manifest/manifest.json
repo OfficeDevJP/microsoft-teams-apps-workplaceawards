@@ -48,7 +48,7 @@
       "commands": [
         {
           "id": "Nominate",
-          "title": "ノミネーション",
+          "title": "Nominations",
           "description": "ノミネーションを検索",
           "parameters": [
             {
@@ -65,7 +65,7 @@
         {
           "id": "Nominate awards",
           "type": "action",
-          "title": "ノミネートする",
+          "title": "Nominate",
           "description": "チームメンバーをアワードにノミネートする",
           "initialRun": true,
           "fetchTask": true,
