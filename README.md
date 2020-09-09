@@ -30,15 +30,15 @@ Workplace Awardsは、どのような組織、チーム内においても表彰�
 [OfficeDevチーム](https://docs.microsoft.com/en-us/samples/officedev/microsoft-teams-apps-workplaceawards/microsoft-teams-apps-workplaceawards/#known-issue)はこの問題の修正に積極的に取り組んでおり、利用可能になりましたら、更新します。
 
 ## 展開・利用に必要な条件
-Workplace Awardsを使用するには
-**Microsoft 365 E3** または **Microsoft 365 E5 のライセンス**
-および
-**Microsoft Azureのサブスクリプション**
+Workplace Awardsを使用するには<br>
+**Microsoft 365 E3** または **Microsoft 365 E5 のライセンス**<br>
+および<br>
+**Microsoft Azureのサブスクリプション**<br>
 が必要です。
 
 ## 利用方法および展開方法
 それぞれのガイドをご参照ください。
-利用方法：Workplace Awards利用者ガイド
+利用方法：Workplace Awards利用者ガイド<br>
 展開方法：Workplace Awards管理者ガイド
 
 ## 免責事項
