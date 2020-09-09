@@ -1,75 +1,44 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- office-teams
-description: Workplace Awards provides an easy and intuitive method to reward employees
-urlFragment: microsoft-teams-apps-workplaceawards
----
+# Workplace Awards
+表彰制度が組織にもたらすメリットとして以下のものが挙げられます。
+「従業員の勤労意欲の向上」、「主力な従業員の惹きつけと維持、・生産性の向上」、「競争力、売上、収益の増加」、「品質、安全性、顧客サービスの強化」、「従業員のストレス、欠勤、離職の軽減」
 
-# Workplace Awards App Template
-
-| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Solution-Overview) |
-| ---- | ---- | ---- |
-
-Organizations adopt employee recognition programs to raise employee morale; attract and retain key employees; elevate productivity; increase competitiveness, revenues and profitability; improve quality, safety and customer service; and reduce employee stress, absenteeism and turnover.
-
-### What is Workplace Awards App?
-Workplace Awards App provides a simple and intuitive way for any organization to set up and manage an employee Rewards & Recognition (R&R) program right within the Teams. It allows employees in a team to nominate their colleagues easily for awards and endorse such nominations to show their support. It provides the owner of the R&R process (aka R&R Captain) the ability to view submitted nominations and grant awards. In this way, the app provides a structure to the award nomination and approval process that is integral to any R&R program.
-
-The app consciously encourages and fosters the culture of employee recognition in a modern workplace.
-
-The app workflow is described below:
-
-- Once the app is installed in a team, the app will prompt users to select a team member as the R&R captain. The R&R captain will be responsible for creating the various awards available in the program, setting up a reward cycle, and acts as deciding authority in the selection of award winners. 
- - While creating awards in the system and setting up a reward cycle, the R&R captain has the option to configure the program as a one-time or a recurring reward cycle.
- - The app will notify the team members to nominate team members for awards once a reward cycle starts.
- - Team members will be able to endorse award nominations submitted within the Team. 
- - The R&R captain will take the final call on deciding the award winners based on the organization's criteria and publish the list of winners in the team. To aid this selection process, the R&R captain will also have visibility into the number of endorsements each nomination has received which is an indicator of support for the nomination from the team.  
+Workplace Awardsは、どのような組織、チーム内においても表彰制度をシンプルかつ直感的に設定、管理する方法を提供するアプリです。本アプリにより、チーム内の従業員は、同じチームメンバーのアワードへのノミネート（推薦）や、ノミネートの支持が簡単に行えます。また、チームの表彰制度の管理者（アワードキャプテン）はアワードの設定、ノミネート状況の表示、アワードの受賞者の決定する機能を利用できます。このようにして、表彰プログラムにとって不可欠となるアワードのノミネート（推薦）と支持の仕組みが提供されています。
+本アプリは、現代の職場における従業員の認識（レコグニション）の文化を意識的に促進し、育成します。
+この度は、マイクロソフトが公開しているアプリテンプレートを基に、弊社が日本語化を行い、公開しております。
 
 
-
-![Reward cycle initiation](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Images/Nominate.png)
-
-![Nominate team members](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Images/Nominate-2.png)
-
-![Endorse award nominations](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Images/Endorse.png)
-
-![Tab for app captain](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Images/Champion_tab.png)
-
-## Legal notice
-
-This app template is provided under the [MIT License](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/blob/master/LICENSE) terms.  In addition to these terms, by using this app template you agree to the following:
-
--	You are responsible for complying with all applicable privacy and security regulations related to use, collection and handling of any personal data by your app.  This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization.
-
--	Where applicable, you may be responsible for data related incidents or data subject requests for data collect through your app.
-
--	Any trademarks or registered trademarks of Microsoft in the United States and/or other countries and logos included in this repository are the property of Microsoft, and the license for this project does not grant you rights to use any Microsoft names, logos or trademarks outside of this repository.  Microsoft’s general trademark guidelines can be found [here](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx).
-
--	Use of this template does not guarantee acceptance of your app to the Teams app store.  To make this app available in the Teams app store, you will have to comply with the [submission and validation process](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app.
+## 主な機能
+①　アワードキャプテンの設定
+アプリの追加に伴い、botから送信されるメッセージ内の「アワードキャプテンの設定」ボタンから、表彰制度の管理するユーザーを決定します。
 
 
-## Getting started
+②　アワードの設定
+アワードキャプテンは“Workplace Awards“のタブにおける「アワードを管理する」ボタンから、アワードの「追加」、「編集」、「削除」、と「リワードサイクルの設定」が可能です。
 
-Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Solution-overview) to read about what the app does and how it works.
 
-When you're ready to try out Workplace Awards app, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards/wiki/Deployment-guide).
+③　ノミネートと支持
+リワードサイクルの開始に伴い、botから送信されるメッセージ内の「すぐにノミネートする」ボタンから、アワードにメンバーをノミネートすることができます。
+ノミネートに伴い、botから”アワード名”、“ノミネートされたメンバー（候補者）”、“推薦者”、“推薦理由”を記載したメッセージが送信されます。このメッセージ内の「支持する」ボタンから、ノミネートされたメンバーの受賞を支持することができます。
 
-#### Known issue:
-The app is currently not supported on iOS devices. We are actively working on fixing the issue and will update the repo as soon as it is available
+④　アワードの受賞者の決定
+アワードキャプテンは“Workplace Awards“のタブにおける「賞を授与する」ボタンから、受賞者を決定できます。
 
-## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+## 既知の問題
+本アプリは現在、iOSデバイスではサポートされていません。
+OfficeDevチームはこの問題の修正に積極的に取り組んでおり、利用可能になりましたら、更新します。
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## 展開・利用に必要な条件
+Workplace Awardsを使用するには
+Microsoft 365 E3 または Microsoft 365 E5 のライセンス
+および
+Microsoft Azureのサブスクリプション
+が必要です。
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## 利用方法および展開方法
+それぞれのガイドをご参照ください。
+利用方法：Workplace Awards利用者ガイド
+展開方法：Workplace Awards管理者ガイド
+
+## 免責事項
+本テンプレートはサンプルであり、Microsoft Power Appsにおいて、参考情報の提供や、個人と企業のコミュニケーションを促進する目的でのみ使用することができます。本テンプートおよび関連サービスは、恒久的なアプリケーション使用を意図したものではありません。インフォシェア株式会社、また日本マイクロソフトはそのような目的で本テンプレートおよび関連サービスを使用するライセンスや権利を本テンプレート利用組織に付与していません。 本テンプレートおよび関連サービスは、各企業のニーズを全て含めるように設計されたものではなく、そのような用途で使用されるものではありません。実際の利用や必要な追加のカスタマイズは導入支援パートナーに確認・依頼してください。 本テンプレートおよび関連サービスのいかなる使用においても、利用者がすべてリスクと責任を負うものとします。また、実装した本テンプレートおよび関連マイクロソフト サービスの使用に関して、適切な警告や情報をエンドユーザーに提供することについても、利用者が責任を負うものとします。 本テンプレートは、日本国内での使用のみを目的とし、欠陥などがある可能性を含んだままの状態で提供されており、いかなる種類の保証も適用されません。
