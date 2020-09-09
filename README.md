@@ -37,7 +37,7 @@ Workplace Awardsを使用するには<br>
 が必要です。
 
 ## 利用方法および展開方法
-それぞれのガイドをご参照ください。
+それぞれのガイドをご参照ください。<br>
 利用方法：Workplace Awards利用者ガイド<br>
 展開方法：Workplace Awards管理者ガイド
 
