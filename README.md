@@ -38,5 +38,5 @@ Workplace Awardsを使用するには<br>
 
 ## 利用方法および展開方法
 それぞれのガイドをご参照ください。<br>
-利用方法：[Workplace Awards利用者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-workplaceawards/blob/main/Workplace%20Awards利用者ガイド.pdf)<br>
-展開方法：[Workplace Awards管理者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-workplaceawards/blob/main/Workplace%20Awards管理者ガイド.pdf)
+利用方法：[Workplace Awards利用者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-workplaceawards/releases/download/v1.0.0/Workplace_Awards_User_Guide.pdf)<br>
+展開方法：[Workplace Awards管理者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-workplaceawards/releases/download/v1.0.0/Workplace_Awards_Deployment_Guide.pdf)
