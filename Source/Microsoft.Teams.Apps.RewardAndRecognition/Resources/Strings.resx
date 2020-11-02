@@ -117,169 +117,168 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AlreadyEndorsedMessage" xml:space="preserve">
-    <value>You have already endorsed **{0}** for this award.</value>
-    <comment>Message to be shown when user is already endorsed. {0}: Nominated team members..</comment>
-  </data>
   <data name="AdminHeaderText" xml:space="preserve">
-    <value>Your new awards captain is...</value>
+    <value>あなたの新しいアワードキャプテンは...</value>
     <comment>Header text to be shown in admin selection card.</comment>
   </data>
   <data name="AdminSubheaderText" xml:space="preserve">
     <value>{0} - {1}</value>
     <comment>Sub header text to be shown in admin selection  card. {0}: Name of the champion, {1}: Email id of champion.</comment>
   </data>
+  <data name="AdminTabNavigationText" xml:space="preserve">
+    <value>Workplace Awardsのタブを開いてリワードサイクルの設定と管理を行いましょう。</value>
+    <comment>Action button title text to navigate user to Tab.</comment>
+  </data>
+  <data name="AlreadyEndorsedMessage" xml:space="preserve">
+    <value>あなたはこのアワードについて **{0}** を支持しています。</value>
+    <comment>Message to be shown when user is already endorsed. {0}: Nominated team members..</comment>
+  </data>
+  <data name="AwardWinnerCardTitle" xml:space="preserve">
+    <value>受賞者発表</value>
+    <comment>Text to show in Winner Carousel card.</comment>
+  </data>
   <data name="ConfigureAdminTitle" xml:space="preserve">
-    <value>Set awards captain</value>
+    <value>アワードキャプテンの設定</value>
     <comment>Title text to show in set champion task module.</comment>
   </data>
   <data name="ContentText" xml:space="preserve">
-    <value>Ready to get started? Select your awards captain</value>
+    <value>準備はよろしいですか？アワードキャプテンを選びましょう。</value>
     <comment>Text to show in channel welcome card.</comment>
   </data>
+  <data name="CycleClosedMessage" xml:space="preserve">
+    <value>このリワードサイクルは終了しました。</value>
+    <comment>Validation message to be shown if user tries to nominate or endorse without active reward cycle or after publishing the winners for that cycle</comment>
+  </data>
+  <data name="CycleValidationMessage" xml:space="preserve">
+    <value>現在アクティブなリワードサイクルはありません。チームメンバーへのノミネートや支持を行うには、次のサイクルまでお待ちください。</value>
+    <comment>Validation message to be shown if user tries to nominate or endorse without active reward cycle.</comment>
+  </data>
   <data name="EndorseButtonText" xml:space="preserve">
-    <value>Endorse</value>
+    <value>支持する</value>
     <comment>Title text to show in Endorse card.</comment>
   </data>
   <data name="EndorseTitle" xml:space="preserve">
-    <value>Endorse</value>
+    <value>支持する</value>
     <comment>Title text to show in Endorse button.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>問題が発生しました。数分後にやり直しください。</value>
     <comment>Generic error message.</comment>
   </data>
   <data name="InvalidTeamText" xml:space="preserve">
-    <value>Bot cannot be used here because it has not been added for this team.</value>
+    <value>このチームにはボットが追加されていないので使用できません。</value>
     <comment>Text to show when user tries to open bot from team where the bot  is not yet configured.</comment>
   </data>
+  <data name="InvalidTenantText" xml:space="preserve">
+    <value>予期しないテナントIDが見つかりました。</value>
+    <comment>Unexpected tenant id found.</comment>
+  </data>
   <data name="ManageAwardsBulletPoint" xml:space="preserve">
-    <value>* Allow nomination of your team mates for designated awards.</value>
+    <value>* 指定されたアワードへのチームメンバーのノミネーションを許可する。</value>
     <comment>Message to be shown in welcome card.</comment>
   </data>
+  <data name="MessagingExtensionErrorMessage" xml:space="preserve">
+    <value>このアプリは個人チャットやグループチャットでは使用できません。アワードを送信するには、Workplace Awardsが追加されているチームに移動してください。</value>
+    <comment>Message to be shown when bot invoked from 1:1 or group chat</comment>
+  </data>
   <data name="NominateBulletPoint" xml:space="preserve">
-    <value>* Approve and publish the award winners from the list of nominees.</value>
+    <value>* ノミネートされたチームメンバーの中からアワードの受賞者を承認し、発表する。</value>
     <comment>Message to be shown in welcome card.</comment>
   </data>
   <data name="NominateButton" xml:space="preserve">
-    <value>Nominate</value>
+    <value>ノミネートする</value>
     <comment>Text to be shown in nominate button.</comment>
   </data>
   <data name="NominateButtonText" xml:space="preserve">
-    <value>Nominate now</value>
+    <value>すぐにノミネートする</value>
     <comment>Text to be shown in nominate now button.</comment>
   </data>
   <data name="NominatedByText" xml:space="preserve">
-    <value>Nominated by {0}.</value>
+    <value>{0} にノミネートされました</value>
     <comment>Text to be shown in Endorse card.</comment>
   </data>
   <data name="NominatePeopleTitle" xml:space="preserve">
-    <value>Nominate people</value>
+    <value>メンバーをノミネートする</value>
     <comment>Text to be shown in nominate card header.</comment>
   </data>
+  <data name="NominationMentionText" xml:space="preserve">
+    <value>{0} がこのアワードにノミネートされました。受賞を支持しましょう！- {1}</value>
+    <comment>Mention text when new nomination submited. {0} Nominees for that award, {1} Nominator.</comment>
+  </data>
+  <data name="NominationReminderNotificationText" xml:space="preserve">
+    <value>ノミネーションはまもなく終了します。今すぐノミネートしてください。</value>
+    <comment>Text to show in nomination reminder notification card.</comment>
+  </data>
   <data name="NoteForTeamText" xml:space="preserve">
-    <value>**Note from team owner:** {0}</value>
+    <value>チーム所有者からのお知らせ ： {0}</value>
     <comment>Text to be shown in Admin card. {0} : Name of the team member who configured awards champion for team.</comment>
   </data>
   <data name="OkButtonText" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
     <comment>Ok button text.</comment>
   </data>
+  <data name="RewardCycleHeader" xml:space="preserve">
+    <value>リワードサイクルは **{0}** から *{1}** までに設定されました。</value>
+    <comment>Text to be shown in Nomination Carousel card after setting reward cycle. {0}: award cycle start date,  {1}: award cycle end date.</comment>
+  </data>
   <data name="RewardCycleText" xml:space="preserve">
-    <value>Reward cycle:</value>
+    <value>リワードサイクル</value>
     <comment>Text to show reward cycle date range in tab.</comment>
   </data>
   <data name="RewardTitle" xml:space="preserve">
-    <value>It's reward time!</value>
+    <value>メンバーを推薦しましょう！</value>
     <comment>Header text to be shown in Reward adaptive card.</comment>
   </data>
   <data name="SetAdminBulletPoint" xml:space="preserve">
-    <value>* Set awards captain who can define awards and manage reward nomination cycles.</value>
+    <value>* アワードを立ち上げ、ノミネーションを管理するアワードキャプテンを設定する。</value>
     <comment>Message to be shown in welcome card.</comment>
   </data>
   <data name="SetAdminButtonText" xml:space="preserve">
-    <value>Set awards captain</value>
+    <value>アワードキャプテンの設定</value>
     <comment>Title text to show in set admin card.</comment>
   </data>
+  <data name="SetAdminMentionText" xml:space="preserve">
+    <value>{0}はアワードキャプテンとして、アワードの作成、リワードサイクルを設定、結果発表を行います。</value>
+    <comment>Mention text when new admin is configured. {0} awards captain name. {1} Name of the team member who configured awards champion for team.</comment>
+  </data>
   <data name="SetRewardCycleBulletPoint" xml:space="preserve">
-    <value>* Show support for nominees by endorsing their nominations.</value>
+    <value>* ノミネートされたメンバーを支持する。</value>
     <comment>Message to be shown in welcome card.</comment>
   </data>
   <data name="SuccessfulEndorseMessage" xml:space="preserve">
-    <value>You've successfully endorsed the nomination of **{0}** for the **{1}**. Results will be shared on **{2}.**</value>
+    <value>**{0}** への **{1}** のノミネーションを支持しました。結果は **{2}** に発表されます。</value>
     <comment>Text to be shown in Endorse successful message. {0}: Nominees for that award. {1}: Award name. {2} reward cycle end date.</comment>
   </data>
-  <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome!</value>
-    <comment>Text to show in welcome card.</comment>
-  </data>
-  <data name="WelcomeSubHeaderText" xml:space="preserve">
-    <value>Here are some of the things that I can help you do:</value>
-    <comment>Text to show as a sub header in welcome card.</comment>
-  </data>
-  <data name="WelcomeTeamCardContent" xml:space="preserve">
-    <value>Hello, I am Workplace Awards bot and I can help you nominate your team members for performance awards.</value>
-    <comment>Text to show bot description in welcome card.</comment>
-  </data>
-  <data name="AwardWinnerCardTitle" xml:space="preserve">
-    <value>And the winners are…</value>
-    <comment>Text to show in Winner Carousel card.</comment>
-  </data>
-  <data name="WinnerCardRewardCycleTitle" xml:space="preserve">
-    <value>For the reward cycle</value>
-    <comment>Text to be shown in Winner carousel card.</comment>
-  </data>
-  <data name="RewardCycleHeader" xml:space="preserve">
-    <value>Reward cycle has been configured from **{0}**  to **{1}**.</value>
-    <comment>Text to be shown in Nomination Carousel card after setting reward cycle. {0}: award cycle start date,  {1}: award cycle end date.</comment>
-  </data>
-  <data name="CycleValidationMessage" xml:space="preserve">
-    <value>We're not currently in an active award cycle. Wait until the next cycle to nominate or endorse a teammate.</value>
-    <comment>Validation message to be shown if user tries to nominate or endorse without active reward cycle.</comment>
-  </data>
-  <data name="SetAdminMentionText" xml:space="preserve">
-    <value>As awards captain, {0} will define the awards, set the awards cycle, and share the results. Thanks so much! - {1}.</value>
-    <comment>Mention text when new admin is configured. {0} awards captain name. {1} Name of the team member who configured awards champion for team.</comment>
-  </data>
   <data name="UnsupportedBotCommand" xml:space="preserve">
-    <value>I don't know that command. Try typing command:
--Nominate</value>
+    <value>不明なコマンドです。次のコマンドを試してみてください： -Nominate</value>
     <comment>Message to be shown in channel when user types any unsupported bot command.</comment>
   </data>
-  <data name="AdminTabNavigationText" xml:space="preserve">
-    <value>Visit Workplace Awards tab to setup and manage reward cycles.</value>
-    <comment>Action button title text to navigate user to Tab.</comment>
-  </data>
-  <data name="CycleClosedMessage" xml:space="preserve">
-    <value>This reward cycle is closed.</value>
-    <comment>Validation message to be shown if user tries to nominate or endorse without active reward cycle or after publishing the winners for that cycle</comment>
-  </data>
-  <data name="NominationMentionText" xml:space="preserve">
-    <value>{0} has been nominated for this award. Feel free to endorse them! Thanks so much! - {1} .</value>
-    <comment>Mention text when new nomination submited. {0} Nominees for that award, {1} Nominator.</comment>
-  </data>
-  <data name="WinnerMentionText" xml:space="preserve">
-    <value>Congratulations </value>
-    <comment>Mention text when new winner published.</comment>
-  </data>
-  <data name="NominationReminderNotificationText" xml:space="preserve">
-    <value>Nominations are about to close, please nominate now.</value>
-    <comment>Text to show in nomination reminder notification card.</comment>
-  </data>
   <data name="ViewWinnerTabText" xml:space="preserve">
-    <value>**View published results on Workplace Awards tab.**</value>
+    <value>**Workplace Awardsのタブで発行された結果を確認しましょう。**</value>
     <comment>Text to show in winner card to navigate user to tab.</comment>
   </data>
   <data name="WelcomeCardNewAdminText" xml:space="preserve">
-    <value>**The existing awards captain has left the team. Please choose a new awards captain to proceed.**</value>
+    <value>**アワードキャプテンがチームから抜けました。リワードサイクルを進めるには新しいアワードキャプテンを選んでください。**</value>
     <comment>Welcome card text when existing admin left the team.</comment>
   </data>
-  <data name="InvalidTenantText" xml:space="preserve">
-    <value>Unexpected tenant id found.</value>
-    <comment>Unexpected tenant id found.</comment>
+  <data name="WelcomeCardTitle" xml:space="preserve">
+    <value>ようこそ！</value>
+    <comment>Text to show in welcome card.</comment>
   </data>
-  <data name="MessagingExtensionErrorMessage" xml:space="preserve">
-    <value>This app not available in 1:1 or group chats. To send an award, navigate to a team where Workplace Awards has been added.</value>
-    <comment>Message to be shown when bot invoked from 1:1 or group chat</comment>
+  <data name="WelcomeSubHeaderText" xml:space="preserve">
+    <value>次のようなタスクをお手伝いします。</value>
+    <comment>Text to show as a sub header in welcome card.</comment>
+  </data>
+  <data name="WelcomeTeamCardContent" xml:space="preserve">
+    <value>こんにちは。Workplace Awardsボットです。アワードへのチームメンバーの推薦をお手伝いします。</value>
+    <comment>Text to show bot description in welcome card.</comment>
+  </data>
+  <data name="WinnerCardRewardCycleTitle" xml:space="preserve">
+    <value>リワードサイクル</value>
+    <comment>Text to be shown in Winner carousel card.</comment>
+  </data>
+  <data name="WinnerMentionText" xml:space="preserve">
+    <value>おめでとうございます</value>
+    <comment>Mention text when new winner published.</comment>
   </data>
 </root>

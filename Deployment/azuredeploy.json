@@ -125,14 +125,14 @@
       "metadata": {
         "description": "The URL to the GitHub repository to deploy."
       },
-      "defaultValue": "https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards.git"
+      "defaultValue": "https://github.com/OfficeDevJP/microsoft-teams-apps-workplaceawards.git"
     },
     "gitBranch": {
       "type": "string",
       "metadata": {
         "description": "The branch of the GitHub repository to deploy."
       },
-      "defaultValue": "master"
+      "defaultValue": "main"
     }
   },
   "variables": {
